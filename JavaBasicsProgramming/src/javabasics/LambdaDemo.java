@@ -6,7 +6,7 @@ interface F{
 	
 	//can be overridden
 	default void display() {
-		System.out.println("Method implementation inside interface");
+		System.out.println("Method implementation inside interface done");
 	}
 }
 
