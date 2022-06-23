@@ -13,7 +13,7 @@ public class AnonymousClassDemo {
 		//Anonymous Class
 		FI f = new FI() {
 			public void show() {
-				System.out.println("Functional Interface baby!!!!");
+				System.out.println("Functional Interface babe!!!!");
 			}
 		};
 		
