@@ -32,7 +32,7 @@ class Cemo{
 
 
 
-public class Sample {
+public class StaticExample {
 
 	public static void main(String[] args) {
 	
