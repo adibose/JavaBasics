@@ -35,8 +35,7 @@ class Cemo{
 public class StaticExample {
 
 	public static void main(String[] args) {
-	
-		Cemo c = new Cemo();
+
 		Cemo.display();
 
 	}
