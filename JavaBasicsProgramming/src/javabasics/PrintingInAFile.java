@@ -10,7 +10,7 @@ public class PrintingInAFile {
 		File file = new File("C:\\Users\\shila\\OneDrive\\Documents\\IT Returns\\Output.txt");
 		PrintStream stream = new PrintStream(file);
 		System.setOut(stream);
-		System.out.println("O maaa turu love");
+		System.out.println("Oi maaa turu love");
 		
 		
 
