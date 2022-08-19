@@ -33,7 +33,7 @@ public class Sample {
 		int s = 0;
 		while(i>0) {
 			s+=i%10;
-			i=1/10;
+			i=i/10;
 		}
 		return s;
 	}
