@@ -1,22 +1,30 @@
 package javabasics;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class ArrayBasics {
 
 	public static void main(String[] args) {
-		int d[][] = {
-				{1,2,3,4},
-				{4,5,7},
-				{8,9,20,11,12,13}
+		int [][]a = {
+				{0,0,0,0,0,0,0,0},
+				{0,0,0,0,0},
+				{0,0,0,0,0,0,0,0}
 		};
 		
+		Scanner sc = new Scanner(System.in);
 		
-		for(int i[]:d) {
-			for(int j:i) {
-				System.out.print(j+" ");
+		for(int i = 0; i <a.length;i++) {
+			for(int j=0;j<a[i].length;j++) {
+				a[i][j]= sc.nextInt();
 			}
-			
-			System.out.println();
 		}
+		
+		for(int[] i:a) {
+			System.out.println(Arrays.toString(i));
+			
+		}
+		
 	}
 
 }

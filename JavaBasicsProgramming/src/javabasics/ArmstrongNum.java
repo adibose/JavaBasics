@@ -1,12 +1,14 @@
 package javabasics;
 
+import java.util.Scanner;
+
 public class ArmstrongNum {
 
 	public static void main(String[] args) {
 		
-		for(int i = 100;i<=999;i++) {
-			checkArmstrong(i);
-		}
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a num: ");
+			checkArmstrong(sc.nextInt());
 
 	}
 
@@ -20,7 +22,9 @@ public class ArmstrongNum {
 			i /= 10;
 			}
 		if(sum==num) {
-			System.out.println(sum);
+			System.out.println("It is an Armstrong Number");
+		}else {
+			System.out.println("It is not an Armstrong Number");
 		}
 		
 	}
