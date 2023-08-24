@@ -14,6 +14,8 @@ public class AnonymousClassDemo {
 		FI f = new FI() {
 			public void show() {
 				System.out.println("Functional Interface babe!!!!");
+				System.out.println("Functional Interface babe done twice!!!!");
+				
 			}
 		};
 		
